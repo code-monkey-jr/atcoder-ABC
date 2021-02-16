@@ -1,0 +1,13 @@
+X,Y = map(int,input().split())
+if X<Y:
+  X+=3
+  if X>Y:
+    print("Yes")
+  else:
+    print("No")
+elif X>Y:
+  Y+=3
+  if X<Y:
+    print("Yes")
+  else:
+    print("No")
